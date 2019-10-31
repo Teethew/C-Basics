@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Do not forget you can compress it all into a single function to have your main function cleaner (*_*) 
+
 //Be careful with global variables
 int n;
 
