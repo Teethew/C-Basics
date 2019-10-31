@@ -5,4 +5,4 @@
 
 ## Recursive functions
 - **Rc_array_reverser** - An recursive function to reverse the order of an array of integers
-- **Recursive_Factorial** - Calculates the factorial of an _int_ (you can change it to another kind of integer with more bits, like _long long int_ or _unsigned int_)
+- **Recursive_Factorial** - Calculates the factorial of an _int_ (you can change it to another type of integer with more bits, like _long long int_ or _unsigned int_)
