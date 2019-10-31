@@ -1,4 +1,5 @@
-# Filenames and its respective descriptions
+# Use it to your advantage!
+Here are some exercises and functions written in *C* that you can use to understand the basics of the language and its characteristics.  
 
 ## Basic functions
 - **array_printer** - A function to read and print an array of integers
