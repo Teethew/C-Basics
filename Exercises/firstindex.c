@@ -35,17 +35,16 @@ int main(void) {
 
 void reverseReader(int vec[], int n){
   for (int i = 0; i < n; i++) {
-    int numero = rand()%10000;
-    //scanf("%d", &numero);
+    int number = rand()%10000;
     
     int k;
     for (k = i; k > 0; k--)
       vec[k] = vec[k-1];
-    vec[0] = numero;
+    vec[0] = number;
     }
   }
 void arrayPrinter(int vec[], int n){
-  printf("Now the array looks like this:{");
+  printf("\nNow, the array looks like this:{");
 	for(int i = 0; i<n-1; i++){
     printf("%d,",vec[i]);
   }
