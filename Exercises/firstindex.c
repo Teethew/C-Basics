@@ -12,41 +12,41 @@ void reverseReader(int vec[], int n);
 void arrayPrinter(int vec[], int n);
 
 int main(void) {
-  int n;
+	int n;
 	printf("Type the length of the array \n");
 	scanf("%d",&n);
 
 	int array1[n];
 
-  reverseReader(array1, n);
-  arrayPrinter(array1, n);
-  //LeContrario(array1, 1);
-  int m;
-  printf("Type a number \n");
-  scanf("%d", &m);
+	reverseReader(array1, n);
+	arrayPrinter(array1, n);
+	//LeContrario(array1, 1);
+	int m;
+	printf("Type a number \n");
+	scanf("%d", &m);
 
-  for (int k = n-1; k >= 0; k--)
-      array1[k] = array1[k-1];
-    array1[0] = m;
+	for (int k = n-1; k >= 0; k--)
+		array1[k] = array1[k-1];
+	array1[0] = m;
 
-  arrayPrinter(array1, n);  
-  return 0;
+	arrayPrinter(array1, n);  
+	return 0;
 }
 
 void reverseReader(int vec[], int n){
-  for (int i = 0; i < n; i++) {
-    int number = rand()%10000;
-    
-    int k;
-    for (k = i; k > 0; k--)
-      vec[k] = vec[k-1];
-    vec[0] = number;
-    }
+	for (int i = 0; i < n; i++) {
+		int number = rand()%10000;
+
+		int k;
+		for (k = i; k > 0; k--)
+			vec[k] = vec[k-1];
+		vec[0] = number;
+	}
   }
 void arrayPrinter(int vec[], int n){
-  printf("\nNow, the array looks like this:{");
+	printf("\nNow, the array looks like this:{");
 	for(int i = 0; i<n-1; i++){
-    printf("%d,",vec[i]);
-  }
-  printf("%d}\n",vec[n-1]);
+		printf("%d,",vec[i]);
+  	}
+	printf("%d}\n",vec[n-1]);
 }
