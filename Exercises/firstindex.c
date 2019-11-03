@@ -20,7 +20,6 @@ int main(void) {
 
 	reverseReader(array1, n);
 	arrayPrinter(array1, n);
-	//LeContrario(array1, 1);
 	int m;
 	printf("Type a number \n");
 	scanf("%d", &m);
