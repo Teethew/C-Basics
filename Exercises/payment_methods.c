@@ -1,12 +1,17 @@
 #include <stdio.h>
 
-/*2) (2,5) Dona Maria foi a uma loja para comprar sapatos. As formas de pagamentos que
-foram oferecidas a ela foram:
-- À vista com 10% de desconto;
-- Entrada + 2 vezes sem desconto;
-- Parcelada em 10 vezes com juros de 5 % sobre o valor total.
-Exiba os valores que Dona Maria irá pagar no total em cada uma das formas de pagamento e
-os valores de cada parcela, caso ela opte em parcelar.*/
+/*2) (2,5) Ms. Maria went to a store to buy shoes. The payment methods that
+were offered to her were:
+- In cash with 10% descount;
+- Entry + 2 times w/o descount;
+- 10 installments with interest of 5% over the total price.
+Show the amount Ms. Maria will pay on each one of the payment methods and
+the amount of each installment, in the case she choose to split.*/
+//The program is currently written in Portuguese (PT-BR).
+/*vista = in cash
+  entrada = entry
+  parcela = installment
+  juros = interest*/
 
 double vista(double valor);
 double entrada(double valor);
