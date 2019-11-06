@@ -2,12 +2,12 @@
 #include <stdbool.h>
 #include <string.h>
 
-bool isPalindromo (char str[201], int i, int j);
+bool isPalindrome (char str[201], int i, int j);
 
 int main() {
  char str[201];
  while (scanf ("%s", str) == 1) {
- if (isPalindromo (str, 0, strlen(str) - 1)) {
+ if (isPalindrome (str, 0, strlen(str) - 1)) {
  printf ("sim\n");
  }
  else {
@@ -17,7 +17,7 @@ int main() {
  return 0;
 }
 
-bool isPalindromo (char str[201], int i, int j){
+bool isPalindrome (char str[201], int i, int j){
  
  for(i<0;i<=j;i++){
    if (str[i]=='E'){
