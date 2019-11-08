@@ -6,6 +6,7 @@ S(n) = /1;            for n=1\
 Write a program that calculates the summation above, using recursion. You must use the
 following prototype of function:
 int soma (int num);*/
+//soma means sum
 
 int soma(int num);
 
