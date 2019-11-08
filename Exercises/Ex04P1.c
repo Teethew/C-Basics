@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-/*4) (3,0) A somatória dos números inteiros de 1 até n pode ser definida como:
-S(n) = {
-1
-n + S(n − 1)
-n=1
-n>1
-Escreva um programa que calcule o somatório acima, utilizando recursão. Você deve usar o
-seguinte protótipo de função:
+/*4) (3,0) The summation of the integers from 1 to n can be defined as:
+S(n) = /1;            for n=1\ 
+       \n + S(n − 1); for n>1/
+Write a program that calculates the summation above, using recursion. You must use the
+following prototype of function:
 int soma (int num);*/
 
 int soma(int num);
