@@ -11,9 +11,10 @@ int soma(int num);
 
 int main(void) {
   int n;
-  printf("Digite n\n");
+  printf("This program calculates the summation Σ (from i to n) of i");
+  printf("Type n\n");
   scanf("%d",&n);
-  printf("O resultado desse somatorio eh %d\n",soma(n));
+  printf("The result of this summation is %d\n",soma(n));
   return 0;
 }
 
