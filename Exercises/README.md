@@ -18,6 +18,6 @@ Here are some exercises and functions written in *C* that you can use to underst
 - **fact_sum** - Reads 2 integers and show the sum of their factorials
 
 ## Iterative functions 
-- **matrix_folder** - Creates a random square matrix of side ´´´n´´´ (an even integer) and fold it (summing the numbers in opposite positions)
+- **matrix_folder** - Creates a random square matrix of side ```n``` (an even integer) and fold it (summing the numbers in opposite positions)
 - **first_index** - Prints a array and after that insert a new number specified by the user in the first index of the array
 - **array_product** - Calculate the product point-to-point of 2 arrays
