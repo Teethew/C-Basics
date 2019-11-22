@@ -8,7 +8,7 @@ struct aluno {
   int ra;
   double P1;
   double P2;
-}
+};
 
 int main(){
   a_aluno alunos[50];
